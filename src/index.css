@@ -33,6 +33,7 @@ html {
   font-family: "Rubik", sans-serif;
   font-weight: 500;
   font-size: 1.6rem;
+  cursor: pointer;
 }
 
 .button--orange:hover {
@@ -46,6 +47,11 @@ html {
   border-radius: 0.3rem;
   padding: 1.8rem 3rem;
   transition: all 0.3s;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .button--black:hover {
