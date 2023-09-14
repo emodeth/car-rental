@@ -1,14 +1,16 @@
 import Banner from "../components/banner/Banner";
+import Choose from "../components/choose/Choose";
 import Hero from "../components/hero/Hero";
 import Plan from "../components/plan/Plan";
 
 function Home() {
   return (
-    <div className="home" id="home">
+    <>
       <Hero />
       <Plan />
       <Banner />
-    </div>
+      <Choose />
+    </>
   );
 }
 

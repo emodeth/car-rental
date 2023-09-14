@@ -1,0 +1,39 @@
+.choose-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.choose-card__img {
+  width: 110px;
+  height: 110px;
+  margin-right: 1.1rem;
+}
+
+.choose-card__header {
+  font-size: 2.4rem;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 700 !important;
+  margin-bottom: 1rem;
+}
+
+.choose-card__description {
+  color: #706f7b;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.43;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 550px) {
+  .choose-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .choose-card__img {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+}

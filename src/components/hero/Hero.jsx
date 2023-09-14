@@ -19,10 +19,10 @@ function Hero() {
             </p>
             <div className="hero__buttons">
               <button className="hero__button--orange button--orange">
-                Book Ride <i class="fa-regular fa-circle-check"></i>
+                Book Ride <i className="fa-regular fa-circle-check"></i>
               </button>
               <button className="hero__button--black button--black">
-                Learn More <i class="fa-solid fa-chevron-right"></i>
+                Learn More <i className="fa-solid fa-chevron-right"></i>
               </button>
             </div>
           </div>
