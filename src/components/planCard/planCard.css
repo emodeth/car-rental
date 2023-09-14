@@ -1,6 +1,7 @@
 .plan-card {
   color: black;
   padding: 1rem 6rem;
+  text-align: center;
 }
 
 .plan-card__img {
@@ -20,4 +21,11 @@
   font-family: "Rubik", sans-serif;
   font-size: 1.6rem;
   line-height: 1.43;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .plan-card__description {
+    width: 80%;
+  }
 }
