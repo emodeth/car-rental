@@ -1,0 +1,61 @@
+.download {
+  background-color: #f8f8f8;
+  background-image: url(../../images/banners/bg02.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.download__container {
+  padding: 10rem 2.5rem;
+}
+
+.download__text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 55rem;
+  text-align: left;
+}
+
+.download__buttons {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.download h2 {
+  color: #010103;
+  font-size: 4.2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.download p {
+  color: #706f7b;
+  font-family: Rubik, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 700px) {
+  .download {
+    background-image: none;
+  }
+
+  .download__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .download__text {
+    text-align: center;
+  }
+
+  .download__buttons {
+    align-items: center;
+    justify-content: center;
+  }
+}
