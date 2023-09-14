@@ -1,0 +1,51 @@
+.testimonial {
+  background-color: #fff;
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.08);
+  padding: 5.5rem;
+  position: relative;
+  width: 54rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.testimonial__text {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.testimonial__user {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.testimonial__user-img {
+  border-radius: 50%;
+  height: 7rem;
+  width: 7rem;
+}
+
+.testimonial__user-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.testimonial__user-place {
+  font-family: Rubik, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.testimonial__quote {
+  bottom: 6rem;
+  color: #ff4d30;
+  font-size: 6.2rem;
+  position: absolute;
+  right: 60px;
+}
+
+@media (max-width: 1000px) {
+  .testimonial {
+    padding: 5rem 3rem;
+  }
+}

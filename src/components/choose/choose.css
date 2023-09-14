@@ -58,6 +58,7 @@
 .choose__button--orange {
   border: 2px solid #ff4d30;
   padding: 1.5rem 2.5rem !important;
+  font-weight: 700 !important;
 }
 
 .choose__button--orange i {
