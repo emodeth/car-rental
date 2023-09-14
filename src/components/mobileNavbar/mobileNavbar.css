@@ -1,0 +1,45 @@
+.mobile-navbar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  position: fixed;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  left: -100%;
+  position: fixed;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+  z-index: 999999;
+}
+
+.mobile-navbar--active {
+  left: 0;
+}
+
+.mobile-navbar__links {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.3rem;
+  gap: 3rem;
+  list-style: none;
+  text-align: center;
+}
+
+.mobile-navbar__links li {
+  font-size: 2.3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #010103;
+}
+
+.mobile-navbar__close {
+  cursor: pointer;
+  font-size: 2rem;
+  font-size: 500;
+  position: absolute;
+  right: 3.5rem;
+  top: 3.5rem;
+  transition: all 0.3s;
+}
