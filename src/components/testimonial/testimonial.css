@@ -3,7 +3,7 @@
   box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.08);
   padding: 5.5rem;
   position: relative;
-  width: 54rem;
+  max-width: 54rem;
   font-family: "Poppins", sans-serif;
 }
 
@@ -47,5 +47,11 @@
 @media (max-width: 1000px) {
   .testimonial {
     padding: 5rem 3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .testimonial__quote {
+    display: none;
   }
 }

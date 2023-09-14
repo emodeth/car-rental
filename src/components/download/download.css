@@ -59,3 +59,9 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 550px) {
+  .download__buttons {
+    flex-direction: column;
+  }
+}
