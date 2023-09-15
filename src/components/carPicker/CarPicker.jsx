@@ -81,13 +81,14 @@ function CarPicker() {
       <div className="car-picker__car">
         <div className="car-picker__car-image-container">
           {carLoad && <span className="loader"></span>}
-          {CAR_DATA.at(activeCar).map((data) => (
+          {CAR_DATA.at(activeCar).map((data, i) => (
             <img
               src={data.img}
               alt={data.name}
               className="car-picker__car-image"
               style={{ display: carLoad ? "none" : "block" }}
               onLoad={() => setCarLoad(false)}
+              key={i}
             />
           ))}
         </div>
