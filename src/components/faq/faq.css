@@ -1,0 +1,40 @@
+.faq {
+  background-image: url(../../images/faq/car.png);
+  background-position: 0 70%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  font-family: "Poppins", sans-serif;
+  color: #010103;
+}
+
+.faq__container {
+  padding: 10rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq__texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 80rem;
+  text-align: center;
+}
+
+.faq__texts h5 {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+
+.faq__texts h2 {
+  font-size: 4.2rem;
+  margin-bottom: 1.7rem;
+}
+
+.faq__texts p {
+  color: #706f7b;
+  font-size: 1.6rem;
+}
