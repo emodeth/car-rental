@@ -1,4 +1,5 @@
 import Banner from "../components/banner/Banner";
+import Booking from "../components/booking/Booking";
 import Choose from "../components/choose/Choose";
 import Download from "../components/download/Download";
 import FAQ from "../components/faq/FAQ";
@@ -12,6 +13,7 @@ function Home() {
   return (
     <>
       <Hero />
+      <Booking />
       <Plan />
       <Pick />
       <Banner />

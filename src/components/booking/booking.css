@@ -1,0 +1,120 @@
+.booking {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(180deg, #f8f8f8 20%, #fff 80%);
+}
+
+.booking__container {
+  padding: 0 2.5rem;
+}
+
+.booking__content {
+  background-color: #fff;
+  background-image: url(../../images/book-car/book-bg.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+
+  color: #010103;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 4rem 4.5rem 5rem 5.5rem;
+  position: relative;
+  width: 100%;
+  z-index: 4;
+}
+
+.booking__content h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 2.7rem;
+}
+
+.booking__form {
+  grid-gap: 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.booking__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking__item label {
+  align-items: center;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.booking__item label b {
+  color: #ff4d30;
+}
+
+.booking__item select {
+  border: 1px solid #ccd7e6;
+  border-radius: 3px;
+  color: #ababab;
+  font-family: Rubik, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  outline: none;
+  padding: 1.2rem 1.3rem;
+}
+
+.booking__date-picker {
+  border: 1px solid #ccd7e6;
+  color: #878585;
+  outline: none;
+  padding-right: 3rem;
+  border-radius: 3px;
+  font-family: Rubik, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 1.2rem 1.3rem;
+}
+
+.form__button {
+  align-self: self-end;
+  background-color: #ff4d30;
+  border: none;
+  box-shadow: 0 10px 15px rgba(255, 83, 48, 0.35);
+  color: #fff;
+  cursor: pointer;
+  font-family: Rubik, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  height: -moz-fit-content;
+  height: -webkit-fit-content;
+  height: fit-content;
+  padding: 1.3rem;
+  transition: all 0.3s;
+}
+
+.form__button:hover {
+  box-shadow: 0 10px 15px rgba(255, 83, 48, 0.55);
+}
+
+@media (max-width: 1000px) {
+  .booking__form {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 630px) {
+  .booking__form {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .booking__content {
+    padding: 4rem 2.5rem 5rem;
+  }
+}
