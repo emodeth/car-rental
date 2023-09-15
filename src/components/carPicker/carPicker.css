@@ -35,7 +35,13 @@
 .car-picker__car-image {
   margin-top: 6rem;
   display: block;
-  width: 50rem;
+  width: 100%;
+}
+
+.car-picker__car {
+  display: flex;
+  gap: 11rem;
+  align-items: center;
 }
 
 .car-picker__price {
@@ -101,4 +107,31 @@
 
 .car-picker__car-image-container {
   position: relative;
+  width: 50rem;
+}
+
+@media (max-width: 1200px) {
+  .car-picker__car {
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1050px) {
+  .car-picker {
+    flex-direction: column;
+    gap: 5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .car-picker__car {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .car-picker__car-image-container {
+    width: 100%;
+  }
 }
