@@ -25,6 +25,7 @@ function CarPicker() {
       <div className="car-picker__cars">
         <button
           onClick={() => {
+            if (activeCar === 1) return;
             setActiveCar(1);
             setCarLoad(true);
           }}
@@ -34,6 +35,7 @@ function CarPicker() {
         </button>
         <button
           onClick={() => {
+            if (activeCar === 0) return;
             setActiveCar(0);
             setCarLoad(true);
           }}
@@ -43,6 +45,7 @@ function CarPicker() {
         </button>
         <button
           onClick={() => {
+            if (activeCar === 2) return;
             setActiveCar(2);
             setCarLoad(true);
           }}
@@ -52,6 +55,7 @@ function CarPicker() {
         </button>
         <button
           onClick={() => {
+            if (activeCar === 3) return;
             setActiveCar(3);
             setCarLoad(true);
           }}
@@ -61,6 +65,7 @@ function CarPicker() {
         </button>
         <button
           onClick={() => {
+            if (activeCar === 4) return;
             setActiveCar(4);
             setCarLoad(true);
           }}
@@ -70,6 +75,7 @@ function CarPicker() {
         </button>
         <button
           onClick={() => {
+            if (activeCar === 5) return;
             setActiveCar(5);
             setCarLoad(true);
           }}
