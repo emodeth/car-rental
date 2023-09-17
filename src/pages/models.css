@@ -1,0 +1,29 @@
+.models__container {
+  padding: 0 2.5rem;
+}
+
+.models__main {
+  grid-gap: 3rem;
+  align-items: center;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  margin: 0 auto;
+  padding: 10rem 0;
+  text-align: center;
+  width: 110rem;
+}
+
+@media (max-width: 1150px) {
+  .models__main {
+    grid-template-columns: 1fr 1fr;
+    width: fit-content;
+  }
+}
+
+@media (max-width: 800px) {
+  .models__main {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,10 @@
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin-top: 1rem;
+}
+
+.stars i {
+  font-size: 1.45rem;
+}
