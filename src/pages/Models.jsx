@@ -1,7 +1,12 @@
+import PageHeader from "../components/pageHeader/PageHeader";
 import "./models.css";
 
 function Models() {
-  return <></>;
+  return (
+    <>
+      <PageHeader header="Vehicle Models" />
+    </>
+  );
 }
 
 export default Models;
