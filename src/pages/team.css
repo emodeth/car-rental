@@ -1,0 +1,32 @@
+.team__container {
+  padding: 0 2.5rem;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.team__main {
+  grid-gap: 4rem;
+  align-items: center;
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  margin: 0 auto;
+  padding: 10rem 2rem;
+  text-align: center;
+  width: 110rem;
+}
+
+@media (max-width: 1150px) {
+  .team__main {
+    grid-template-columns: 1fr 1fr;
+    width: fit-content;
+  }
+}
+
+@media (max-width: 800px) {
+  .team__main {
+    grid-template-columns: 1fr;
+  }
+}
