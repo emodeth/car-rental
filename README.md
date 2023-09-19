@@ -16,7 +16,7 @@
 <h3 align='center'>Home Page 🏡</h3>
 
 <div align='center'>
-<img src='[https://i.hizliresim.com/vyu4gyw.png](https://i.hizliresim.com/nx1dc1p.png)'/>
+<img src='https://i.hizliresim.com/nx1dc1p.png'/>
 
 <h3 align='center'>About Page</h3>
 
