@@ -16,6 +16,31 @@
 <h3 align='center'>Home Page 🏡</h3>
 
 <div align='center'>
+<img src='[https://i.hizliresim.com/vyu4gyw.png](https://i.hizliresim.com/nx1dc1p.png)'/>
+
+<h3 align='center'>About Page</h3>
+
+<div align='center'>
+<img src='https://i.hizliresim.com/nx1dc1p.png'/>
+
+<h3 align='center'>Vehicle Models Page</h3>
+
+<div align='center'>
+<img src='https://i.hizliresim.com/i5fz4ej.png'/>
+
+<h3 align='center'>Testimonials Page</h3>
+
+<div align='center'>
+<img src='https://i.hizliresim.com/rctkkwb.png'/>
+
+<h3 align='center'>Our Team Page</h3>
+
+<div align='center'>
+<img src='https://i.hizliresim.com/4z7f6oo.png'/>
+
+<h3 align='center'>Contact Page</h3>
+
+<div align='center'>
 <img src='https://i.hizliresim.com/vyu4gyw.png'/>
 
 </div>
