@@ -1,6 +1,7 @@
 import PageHeader from "../components/pageHeader/PageHeader";
 import PageBanner from "../components/pageBanner/PageBanner";
 import Footer from "../components/footer/Footer";
+import ScrollUp from "../components/scrollUp/ScrollUp";
 
 import audiImg from "../images/cars-big/audi-box.png";
 import benzImg from "../images/cars-big/benz-box.png";
@@ -17,6 +18,7 @@ function Models() {
     <>
       <PageHeader header="Vehicle Models" />
       <div className="models__container container">
+        <ScrollUp />
         <div className="models__main">
           <ModelItem
             name="Audi A1"

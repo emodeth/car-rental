@@ -2,6 +2,8 @@ import PageBanner from "../components/pageBanner/PageBanner";
 import PageHeader from "../components/pageHeader/PageHeader";
 import Plan from "../components/plan/Plan";
 import Footer from "../components/footer/Footer";
+import ScrollUp from "../components/scrollUp/ScrollUp";
+
 import aboutImg from "../images/about/about-main.jpg";
 import aboutStat1 from "../images/about/icon1.png";
 import aboutStat2 from "../images/about/icon2.png";
@@ -14,6 +16,8 @@ function About() {
     <>
       <PageHeader header="About" />
       <div className="about__container container">
+        <ScrollUp />
+
         <div className="about__main">
           <img className="about__img" src={aboutImg} alt="about" />
           <div className="about__texts">

@@ -2,6 +2,7 @@ import PageHeader from "../components/pageHeader/PageHeader";
 import TeamItem from "../components/teamItem/TeamItem";
 import PageBanner from "../components/pageBanner/PageBanner";
 import Footer from "../components/footer/Footer";
+import ScrollUp from "../components/scrollUp/ScrollUp";
 
 import img1 from "../images/team/1.png";
 import img3 from "../images/team/3.png";
@@ -17,6 +18,7 @@ function Team() {
     <>
       <PageHeader header="Our Team" />
       <div className="team__container container">
+        <ScrollUp />
         <div className="team__main">
           <TeamItem name="Luke Miller" position="Salesman" img={img1} />
           <TeamItem name="Michael Diaz" position="Business Owner" img={img2} />

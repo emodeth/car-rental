@@ -1,11 +1,14 @@
 import "./hero.css";
 import heroBg from "../../images/hero/hero-bg.png";
 import heroImg from "../../images/hero/main-car.png";
+import ScrollUp from "../scrollUp/ScrollUp";
 
 function Hero() {
   return (
     <div className="hero" id="home">
       <div className="hero__container container">
+        <ScrollUp />
+
         <img className="hero__bg" src={heroBg} alt="bg" />
         <div className="hero__content">
           <div className="hero__text">

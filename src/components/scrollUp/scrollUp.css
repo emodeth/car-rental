@@ -1,0 +1,23 @@
+.scroll-up {
+  display: none;
+  align-items: center;
+  background-color: #ff4d30;
+  border: 3px solid #fff;
+  bottom: 5rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 2.5rem;
+  height: 2rem;
+  justify-content: center;
+  padding: 2rem;
+  position: fixed;
+  right: 5rem;
+  text-align: center;
+  width: 2rem;
+  z-index: 20;
+  font-family: "Poppins", sans-serif;
+}
+
+.scroll-up--active {
+  display: flex;
+}

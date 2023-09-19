@@ -1,4 +1,5 @@
 import Testimonial from "../testimonial/Testimonial";
+import ScrollUp from "../scrollUp/ScrollUp";
 import "./testimonials.css";
 import userImg1 from "../../images/testimonials/pfp1.jpg";
 import userImg2 from "../../images/testimonials/pfp2.jpg";
@@ -7,6 +8,7 @@ function Testimonials() {
   return (
     <div className="testimonials" id="testimonials">
       <div className="testimonials__container container">
+        <ScrollUp />
         <div className="testimonials__texts">
           <h4>Reviewed by People</h4>
           <h2>Client's Testimonials</h2>

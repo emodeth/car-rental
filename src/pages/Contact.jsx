@@ -1,6 +1,7 @@
 import PageHeader from "../components/pageHeader/PageHeader";
 import PageBanner from "../components/pageBanner/PageBanner";
 import Footer from "../components/footer/Footer";
+import ScrollUp from "../components/scrollUp/ScrollUp";
 
 import "./contact.css";
 
@@ -9,6 +10,8 @@ function Contact() {
     <>
       <PageHeader header="Contact" />
       <div className="contact__container container">
+        <ScrollUp />
+
         <div className="contact__main">
           <div className="contact__texts">
             <h2>Need additional information?</h2>
