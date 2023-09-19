@@ -16,31 +16,31 @@
 <h3 align='center'>Home Page 🏡</h3>
 
 <div align='center'>
-<img src='https://i.hizliresim.com/nx1dc1p.png'/>
+<img src='https://i.hizliresim.com/38o2ds8.png'/>
 
-<h3 align='center'>About Page</h3>
-
-<div align='center'>
-<img src='https://i.hizliresim.com/nx1dc1p.png'/>
-
-<h3 align='center'>Vehicle Models Page</h3>
+<h3 align='center'>About Page 👇</h3>
 
 <div align='center'>
-<img src='https://i.hizliresim.com/i5fz4ej.png'/>
+<img src='https://i.hizliresim.com/ohkw2aq.png'/>
 
-<h3 align='center'>Testimonials Page</h3>
-
-<div align='center'>
-<img src='https://i.hizliresim.com/rctkkwb.png'/>
-
-<h3 align='center'>Our Team Page</h3>
+<h3 align='center'>Vehicle Models Page 👇</h3>
 
 <div align='center'>
-<img src='https://i.hizliresim.com/4z7f6oo.png'/>
+<img src='https://i.hizliresim.com/67li50f.png'/>
 
-<h3 align='center'>Contact Page</h3>
+<h3 align='center'>Testimonials Page 👇</h3>
 
 <div align='center'>
-<img src='https://i.hizliresim.com/vyu4gyw.png'/>
+<img src='https://i.hizliresim.com/kmxm2e5.png'/>
+
+<h3 align='center'>Our Team Page 👇</h3>
+
+<div align='center'>
+<img src='https://i.hizliresim.com/6dbertk.png'/>
+
+<h3 align='center'>Contact Page 👇</h3>
+
+<div align='center'>
+<img src='https://i.hizliresim.com/drsibj1.png'/>
 
 </div>
